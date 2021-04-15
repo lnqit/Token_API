@@ -4,7 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class SeesionUser extends Model
+class SessionUser extends Model
 {
-    //
+    protected $guarder = [];
 }
