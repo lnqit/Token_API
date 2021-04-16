@@ -11,12 +11,13 @@ class LoginController extends Controller
 {
     public function login(Request $request)
     {
+        //dd(123);
         $dataCheckLogin = [
             'email' => $request->email,
             'password' => $request->password
         ];
 
-        if( auth()->Auth::attempt($dataCheckLogin))
+        if( auth()->attempt($dataCheckLogin))
         {
             //dd(123);
             $checkTokenExit = SessionUser::where('user_id', auth()->id())->first();
