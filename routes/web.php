@@ -19,5 +19,8 @@ Route::get('/', function () {
 
 
 Route::get('/home', function () {
-    return view('Admin.home');
+    return view('Admin.Home');
 });
+
+Route::get('/client','HomeController@index');
+

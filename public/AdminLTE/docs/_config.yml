@@ -38,28 +38,28 @@ navigation:
   icon: fas fa-copy
 - title: Components
   icon: fas fa-th
-  url: components
+  url: Components
   subitems: 
     - title: Main Header
-      url: components/main-header.html
+      url: Components/main-header.html
     - title: Main Sidebar
-      url: components/main-sidebar.html
+      url: Components/main-sidebar.html
     - title: Control Sidebar
-      url: components/control-sidebar.html
+      url: Components/control-sidebar.html
     - title: Card
-      url: components/cards.html
+      url: Components/cards.html
     - title: Small-/ Info-Box
-      url: components/boxes.html
+      url: Components/boxes.html
     - title: Direct Chat
-      url: components/direct-chat.html
+      url: Components/direct-chat.html
     - title: Timeline
-      url: components/timeline.html
+      url: Components/timeline.html
     - title: Ribbons
-      url: components/ribbons.html
+      url: Components/ribbons.html
     - title: Miscellaneous
-      url: components/miscellaneous.html
+      url: Components/miscellaneous.html
     - title: Plugins
-      url: components/plugins.html
+      url: Components/plugins.html
 - title: JavaScript
   icon: fas fa-code
   url: javascript

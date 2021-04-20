@@ -886,7 +886,7 @@ Lots taken from Flatly (MIT): https://bootswatch.com/4/flatly/bootstrap.css
     background: #fff !important;
   }
 
-  /* kill the overlaid, absolutely-positioned components */
+  /* kill the overlaid, absolutely-positioned Components */
   /* common... */
   .fc-bg,
 .fc-bgevent-skeleton,
